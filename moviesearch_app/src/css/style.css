@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #030617;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-slider {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  z-index: 0;
+}
+
+h1 {
+  font-family: Courgette;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+h1,
+h3 {
+  color: rgb(238, 248, 248);
+}
+
+/* Footer Start */
+
+footer {
+  background-color: #030617;
+  padding: 10rem 2rem 3rem;
+}
+footer p,
+footer a {
+  color: white;
+  text-decoration: none;
+}
+ul.social {
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+}
+ul.social li {
+  margin: 0 auto;
+}
+ul.social a:hover {
+  color: #62adeb;
+}
+
+
+.footer-text {
+  font-size: 1.2rem;
+}
+
+
+
+/* Footer End */
+
+.searchbar {
+  border-radius: 30px;
+}
+
+.objectfit {
+  object-fit: cover;
+}
+
+.cardBodyColor {
+  background-color: #030617;
+  color: white;
+  text-align: center;
+}
+
+.cardTitleHeight {
+  height: 1rem;
+}
+
+.cardBorder {
+  /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+
+  /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2); */
+
+  box-shadow: 2px 2px red, -1em 0 0.4em olive;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.searchInput {
+  background-color: rgba(238, 237, 237, 0.993);
+  color: #030617;
+  border-radius: 30px;
+}
+
+.series {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 1.7rem;
+  padding: 24px 24px 20px 10px;
+}
+
+.seriesBtnGroup {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.seriesNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarTitle {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 2rem;
+}
+
+
+.bookmark-icon {
+  font-size: 2.8vw;
+}
+
+
+/* Modal */
+.modalImg {
+  margin: 0 auto;
+  width: 25vw;
+}
+
+.modalFooter {
+  margin: 0 auto;
+
+
+  width: 25rem;
+  height: 22rem;
+
+}
+
+/* .modal {
+  background-color: blue;
+} */
+
+
+
+.cardTiTleFont{
+  font-size: 16px;
+}
+
